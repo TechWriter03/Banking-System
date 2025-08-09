@@ -1,0 +1,215 @@
+Connected to MySQL Database...
+1. Create Account
+2. Access Account
+3. Transfer Funds
+4. Account Statement
+5. Apply Interest To All Accounts
+6. Create Fixed Deposit
+7. Apply For Loan
+8. Change ATM PIN
+9. Reporting & Analytics
+10. Exit
+Enter your choice: 1
+Enter customer name: santhosh
+Enter amount to deposit: 3000.00
+Enter 4 Digit ATM PIN: 3333
+Account created successfully. Account Number: 87198
+
+1. Create Account
+2. Access Account
+3. Transfer Funds
+4. Account Statement
+5. Apply Interest To All Accounts
+6. Create Fixed Deposit
+7. Apply For Loan
+8. Change ATM PIN
+9. Reporting & Analytics
+10. Exit
+Enter your choice: 1
+Enter customer name: mohan
+Enter amount to deposit: 5000.00
+Enter 4 Digit ATM PIN: 1234
+Account created successfully. Account Number: 11946
+
+1. Create Account
+2. Access Account
+3. Transfer Funds
+4. Account Statement
+5. Apply Interest To All Accounts
+6. Create Fixed Deposit
+7. Apply For Loan
+8. Change ATM PIN
+9. Reporting & Analytics
+10. Exit
+Enter your choice: 2
+Enter customer name: santhosh
+Enter account number: 87198
+Welcome  santhosh
+Your account number is  87198
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Close Account
+5. Logout
+Enter your choice: 1
+Enter amount to deposit: 1000.00
+Account Number:  87198
+Available Balance:  4000.00
+
+Welcome  santhosh
+Your account number is  87198
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Close Account
+5. Logout
+Enter your choice: 2
+Enter amount to withdraw: 1000.00
+Account Number:  87198
+Available Balance:  3000.00
+
+Welcome  santhosh
+Your account number is  87198
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Close Account
+5. Logout
+Enter your choice: 3
+Account Number:  87198
+Available Balance:  3000.00
+
+Welcome  santhosh
+Your account number is  87198
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Close Account
+5. Logout
+Enter your choice: 5
+Logged Out successfully...
+
+1. Create Account
+2. Access Account
+3. Transfer Funds
+4. Account Statement
+5. Apply Interest To All Accounts
+6. Create Fixed Deposit
+7. Apply For Loan
+8. Change ATM PIN
+9. Reporting & Analytics
+10. Exit
+Enter your choice: 3
+Enter account number (FROM): 11946
+Enter account number (TO): 87198 
+Enter amount to transfer: 500.00
+Account Number:  11946
+Available Balance:  4500.00
+Account Number:  87198
+Available Balance:  3500.00
+Funds transferred successfully and transaction recorded...
+
+1. Create Account
+2. Access Account
+3. Transfer Funds
+4. Account Statement
+5. Apply Interest To All Accounts
+6. Create Fixed Deposit
+7. Apply For Loan
+8. Change ATM PIN
+9. Reporting & Analytics
+10. Exit
+Enter your choice: 4
+Enter account number: 87198
+Enter ATM PIN: 3333
+
+--- Account Statement ---
+Transaction Id:  1  From:  self  To:  87198 Amount:  1000.00 Date & Time:  2025-08-09 20:14:08
+Transaction Id:  2  From:  87198  To:  self Amount:  1000.00 Date & Time:  2025-08-09 20:16:15
+Transaction Id:  3  From:  11946  To:  87198 Amount:  500.00 Date & Time:  2025-08-09 20:26:24
+Account Statement saved to account_statement_87198.csv
+
+1. Create Account
+2. Access Account
+3. Transfer Funds
+4. Account Statement
+5. Apply Interest To All Accounts
+6. Create Fixed Deposit
+7. Apply For Loan
+8. Change ATM PIN
+9. Reporting & Analytics
+10. Exit
+Enter your choice: 5
+Enter interest rate (%): 5
+Interest applied to all accounts...
+
+1. Create Account
+2. Access Account
+3. Transfer Funds
+4. Account Statement
+5. Apply Interest To All Accounts
+6. Create Fixed Deposit
+7. Apply For Loan
+8. Change ATM PIN
+9. Reporting & Analytics
+10. Exit
+Enter your choice: 6
+Enter your account number: 87198
+Enter deposit amount: 50000.00
+Enter tenure in years: 3
+Enter interest rate (%): 7
+Fixed Deposit created successfully...
+
+--- Fixed Deposit Details ---
+Deposit Amount      : 50000.00
+Interest Rate       : 7.00 %
+Tenure              : 2 years
+Maturity Date       : 2027-08-09
+Maturity Amount     : 57245.00
+
+1. Create Account
+2. Access Account
+3. Transfer Funds
+4. Account Statement
+5. Apply Interest To All Accounts
+6. Create Fixed Deposit
+7. Apply For Loan
+10. Exit
+Enter your choice: 7
+Enter account number: 87198
+Enter loan amount: 20000.00
+Enter monthly EMI amount: 2000.00
+Enter tenure in years: 1
+Enter loan type (home/personal): personal
+Loan sanctioned...
+
+1. Create Account
+2. Access Account
+3. Transfer Funds
+4. Account Statement
+5. Apply Interest To All Accounts
+6. Create Fixed Deposit
+7. Apply For Loan
+8. Change ATM PIN
+9. Reporting & Analytics
+10. Exit
+Enter your choice: 8
+Enter account number: 87198
+Enter old ATM PIN: 3333
+Enter new ATM PIN: 2003
+ATM PIN updated successfully...
+
+1. Create Account
+2. Access Account
+3. Transfer Funds
+4. Account Statement
+5. Apply Interest To All Accounts
+6. Create Fixed Deposit
+7. Apply For Loan
+8. Change ATM PIN
+9. Reporting & Analytics
+10. Exit
+Enter your choice: 9
+--- All Account Details Sorted By Balance ---
+Name:  mohan  Account Number:  11946  Balance:  34725.00
+Name:  santhosh  Account Number:  87198  Balance:  23675.00
