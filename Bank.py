@@ -79,6 +79,7 @@ class Bank:
                     self.close_account(result[1])
                 elif choice==5:
                     print("Logged Out successfully...")
+                    break
                 else:
                     print("Invalid Choice...")
                     break
@@ -352,4 +353,5 @@ def main():
             break
 
 if __name__ == "__main__":
+
     main()
